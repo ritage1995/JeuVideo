@@ -1,12 +1,13 @@
-Etape de realiser le projet:
+Etape de realiser le projet
 1- analyse :
       le joueur veut faire la coursse avec une voiture viruelle
 2- conception :
       le 
 3- dev
 
+***************************************************
 
-Diagrammes:
+Diagrammes
 1- cas d'utilisation
       le titre : jouer a coursse avec les voitures
       l'acteur : Joueur
@@ -20,3 +21,31 @@ Diagrammes:
       scénario secondaire :
             - le joueur annule le paiement / inscription 
             - le system affiche la page principale
+
+2 - diagramme de class
+
+******************************************************
+class Vehicules
+attribut : couleur, marque
+methodes : demarer, accelerer, arreter
+
+class Voiture extends Vehicules
+attribut : serie
+methodes : 
+
+class Motor extends Vehicules
+attribut : serie
+methodes : cabri
+
+class joueur
+attribut : nom, age
+methodes : jouer, choisir, payer, remplir ...
+
+
+
+
+
+
+
+
+
