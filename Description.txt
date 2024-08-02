@@ -1,0 +1,22 @@
+Etape de realiser le projet:
+1- analyse :
+      le joueur veut faire la coursse avec une voiture viruelle
+2- conception :
+      le 
+3- dev
+
+
+Diagrammes:
+1- cas d'utilisation
+      le titre : jouer a coursse avec les voitures
+      l'acteur : Joueur
+      le scénario :  
+            - le joueur s'inscrire
+            - le systeme affiches la liste des voitures
+            - le joueur choisi la voiture et la scene de jeu 
+            - le system affiche la liste des objets pour les vendres
+            - le joueur choisi ses nvl obj
+            - le joueur rempli la formule et payer
+      scénario secondaire :
+            - le joueur annule le paiement / inscription 
+            - le system affiche la page principale
