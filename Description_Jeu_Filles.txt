@@ -1,0 +1,61 @@
+Etape de realiser le projet
+1- analyse :
+      le joueur veut habiller les poupées
+2- conception :
+      le joueur choisi 
+3- dev
+
+***************************************************
+
+Diagrammes
+1- cas d'utilisation
+      le titre : jouer avec les poupées
+      l'acteur : Joueur
+      le scénario :  
+            - le joueur s'inscrire dans la page
+            - le systeme affiches la liste des poupées 
+            - le joueur choisi la poupée
+            - le sys affiches les vetements
+            - le joueur choisi la collection
+            - le system affiche la liste des objets pour les vendres
+            - le joueur choisi ses nvl obj et le rajoute dans un panier
+            - le joueur rempli la formule et payer sa commande
+      scénario secondaire :
+            - le joueur annule le paiement / inscription 
+            - le system affiche la page principale
+
+2 - diagramme de class
+
+******************************************************
+class Person
+attribut : name, age, genre
+methodes : marcher, payer
+
+class Joueur extends Person
+attribut : 
+methodes : inscrire, jouer, habiller, choisir,
+
+class Poupe 
+attribut : nome, genre, couleur
+methodes : habiller, dormir
+
+class Jeu
+attribut : score
+methodes : jouer, supprimer, ajouter
+
+class Vetement
+attribut : type, marque, couleur, prix
+methodes :
+
+class Commande
+attribut : num_cmd, prix
+methodes : ajouter, supprimer
+
+class Panier
+attribut : list_Vetement
+methodes :
+
+class Payer
+attribut :
+methodes :
+
