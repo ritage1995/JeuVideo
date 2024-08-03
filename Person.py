@@ -1,10 +1,32 @@
 class Person:
   
+  #constructeur
   def __init__(self):
-    slef.name = "Joueur"
-    slef.age = ""
-    slef.genre = ""
+    slef.__name = "Joueur"
+    slef.__age = ""
+    slef.__genre = ""
 
-  def get_name(self):
-    return slef.name
+  #Getter name
+  def getName(self):
+    return slef.__name
+
+  #Getter age
+  def getAge(self):
+    return slef.__age
+
+  #Getter genre
+  def getGenre(self):
+    return slef.__genre
+
+  #Setter name
+  def set_name(self,name):
+    slef.__name = name
+
+ #Setter age
+  def set_age(self,age):
+    slef.__age = age
+
+ #Setter genre
+  def set_genre(self,genre):
+    slef.__genre = genre
     
