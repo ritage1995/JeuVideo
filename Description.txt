@@ -13,7 +13,7 @@ Diagrammes
       l'acteur : Joueur
       le scénario :  
             - le joueur s'inscrire
-            - le systeme affiches la liste des voitures
+            - le systeme affiches la liste des voitures e
             - le joueur choisi la voiture et la scene de jeu 
             - le system affiche la liste des objets pour les vendres
             - le joueur choisi ses nvl obj
